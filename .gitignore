@@ -1,0 +1,42 @@
+# PLATFORM
+# ========
+# All exclusions that are specific to the NPM, GIT, IDE and Operating Systems.
+
+# - Do not allow installed node modules to be committed. Doing `npm install -d` will bring them in root or other places.
+node_modules
+
+# - Do not allow Mac spotlight files from getting into the repository.
+.DS_Store
+
+# - Prevent windows explorer files from getting into the repository.
+Thumbs.db
+
+# - Do not commit any log file from anywhere
+*.log
+
+# - Prevent Sublime text IDE files from being commited to repository
+*.sublime-*
+
+# - Allow sublime text project file to be commited in the development directory.
+!*.sublime-project
+
+
+# PROJECT
+# =======
+# Configuration pertaining to project specific repository structure.
+
+# - Prevent extra `jshint` configuration from being committed from anywhere. Only `package.json` will be used as
+#   accepted source of config.
+.jshintrc
+
+# - Prevent CI output files from being Added
+/out/
+/subsystem/
+/tmp/
+
+# - Prevent diff backups from SourceTree from showing as commit.
+*.BACKUP.*
+*.BASE.*
+*.LOCAL.*
+*.REMOTE.*
+*.orig
