@@ -1,0 +1,21 @@
+{
+  "name": "markover",
+  "description": "Markdown syntax beautification and cleanup",
+  "version": "0.0.1-dev",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shamasis/markover.git"
+  },
+  "devDependencies": {
+    "jasmine-node": "*",
+    "jshint": "*"
+  },
+  "scripts": {
+    "test": "jshint src/ tests/ --verbose && jasmine-node tests/specs/"
+  },
+  "dependencies": {
+    "marked": "^0.3.2",
+    "walkdir": "0.0.7",
+    "wordwrap": "0.0.2"
+  }
+}
