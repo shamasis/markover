@@ -15,7 +15,7 @@
   },
   "dependencies": {
     "marked": "^0.3.2",
-    "walkdir": "0.0.7",
-    "wordwrap": "0.0.2"
+    "walkdir": "0.0.11",
+    "wordwrap": "1.0.0"
   }
 }
