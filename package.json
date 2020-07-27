@@ -14,7 +14,7 @@
     "test": "jshint src/ tests/ --verbose && jasmine-node tests/specs/"
   },
   "dependencies": {
-    "marked": "^0.3.2",
+    "marked": "^1.1.1",
     "walkdir": "0.0.7",
     "wordwrap": "0.0.2"
   }
